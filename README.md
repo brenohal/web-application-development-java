@@ -1,5 +1,41 @@
-- *NOTE:* *BEFORE* completing steps below, *BE CAREFUL* when doing so!
-- *BE SURE* to compare file contents of *your* existing directories--if you have any--**BEFORE** overwriting. 
-- Change *all* student_files directories to proper assignment name: For example, a1_student_files becomes a1.
-- **Important!** context.xml (in META-INF) has changed since the videos were created. See comments in file.
-- Lastly, include **your** main lis4368 README.md file here--do *NOT* create one on your remote Bitbucket site!
+> **NOTE:** This README.md file should be placed at the **root of each of your main directory.**
+
+# LIS4368 Advanced Web Application Development
+
+## Brennan O'Halloran
+
+# LI4368 Requirements:
+
+
+*Course Work Links:*
+
+1. [A1 README.md](a1/README.md "My A1 README.md file")
+ - Screenshot of running java Hello (#1 above);
+ - Screenshot of running http://localhost:9999 (#2 above, Step #4(b) in tutorial);
+ - Screenshot of a1/index.jsp
+ - git commands w/short descriptions;
+
+2. [A2 README.md](a2/README.md "My A2 README.md file")
+    - Install something
+    - Install something
+    
+3. [A3 README.md](a3/README.md "My A3 README.md file")
+    - Install something
+    - Install something
+
+4. [A4 README.md](a4/README.md "My A4 README.md file")
+    - Install something
+    - Install something
+    
+5. [A5 README.md](a5/README.md "My A5 README.md file")
+    - Install something
+    - Install something
+    
+6.    [P1 README.md](p1/README.md "My P1 README.md file")
+    - Install something
+    - Install something
+    
+7. [P2 README.md](p2/README.md "My P2 README.md file")
+    - Install something
+    - Install something
+    
