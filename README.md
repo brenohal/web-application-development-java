@@ -10,10 +10,10 @@
 *Course Work Links:*
 
 1. [A1 README.md](a1/README.md "My A1 README.md file")
- - Screenshot of running java Hello (#1 above);
- - Screenshot of running http://localhost:9999 (#2 above, Step #4(b) in tutorial);
- - Screenshot of a1/index.jsp
- - git commands w/short descriptions;
+    - Screenshot of running java Hello (#1 above);
+    - Screenshot of running http://localhost:9999 (#2 above, Step #4(b) in tutorial);
+    - Screenshot of a1/index.jsp
+    - git commands w/short descriptions;
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
     - Install something
