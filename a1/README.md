@@ -38,6 +38,10 @@ Three Parts:
 
 ![JDK Installation Screenshot](img/jdk_install.png)
 
+*Screenshot of a1/index.jsp*:
+
+![a1/index.jsp Screenshot](img/index.png)
+
 
 
 
