@@ -32,7 +32,7 @@ Three Parts:
 
 *Screenshot of AMPPS running http://localhost*:
 
-![AMPPS Installation Screenshot](img/ampps.png)
+![AMPPS Installation Screenshot](img/tomcat.png)
 
 *Screenshot of running java Hello*:
 
