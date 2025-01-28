@@ -37,6 +37,7 @@
 					<br /> <br />
 					<b>Tomcat Installation:</b><br />
 					<img src="img/tomcat.png" class="img-responsive center-block" alt="Tomcat Installation" />
+					
 
 	<%@ include file="/global/footer.jsp" %>
 
