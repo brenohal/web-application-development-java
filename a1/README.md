@@ -44,7 +44,7 @@ Three Parts:
 
 *Screenshot of a1/index.jsp running *:
 
-![a1/index.jsp Screenshot](img/index2.png)
+![a1/index2.jsp Screenshot](img/index2.png)
 
 
 
