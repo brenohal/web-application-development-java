@@ -70,22 +70,23 @@ h2
        <!-- Carousel items -->
         <div class="carousel-inner">
 
-				 <div class="active item" style="background: url(img/pc.jpg) no-repeat left center; background-size: cover;">
+				 <div class="active item" style="background: url(img/ln.png) no-repeat left center; background-size: cover;">
 					 <div class="container">
 						 <div class="carousel-caption">
-								<h3>First slide</h3>
-							 <a class="btn btn-large btn-primary" href="#">Learn more</a>
+								<h3>My Linkedin</h3>
+							 <a class="btn btn-large btn-primary" href="https://www.linkedin.com/in/brennan-o-halloran/">Learn more</a>
 						 </div>
 					 </div>
 				 </div>					
 
-         <div class="item" style="background: url(img/chip.jpg) no-repeat left center; background-size: cover;">
-                <h2>Slide 2</h2>
-                <div class="carousel-caption">
-                  <h3>Second slide</h3>
-						 <!--  <img src="img/slide2.png" alt="Slide 2">									 -->						
-                </div>
-            </div>
+         <div class="item" style="background: url(img/bb.png) no-repeat left center; background-size: cover;">
+			<div class="container">
+				<div class="carousel-caption">
+					   <h3>My BitBucket Portfolio</h3>
+					<a class="btn btn-large btn-primary" href="https://bitbucket.org/bmo22a/lis4368/src/master/">Learn more</a>
+				</div>
+			</div>
+		</div>				
 
          <div class="item" style="background: url(img/tube.jpg) no-repeat left center; background-size: cover;">
                 <h2>Slide 3</h2>
