@@ -8,7 +8,7 @@
 Three Parts:
 
 1. Set up bitbucket account and connect it to you local machine.
-2. Distributive version control with Git and TomCat.
+2. Distributive version control with Git and BitBucket.
 3. Install necessary software.
 
 #### README.md file should include the following items:
