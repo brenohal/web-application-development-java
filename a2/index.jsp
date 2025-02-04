@@ -32,14 +32,24 @@
 					</div>
 
 					<b>Servlet Compilation and Usage:</b><br />
-					<img src="img/using_servlets.png" class="img-responsive center-block" alt="Using Servlets" />
+					<img src="img/sayhello.png" class="img-responsive center-block" alt="Using Servlets" />
 
 					<br /> <br />
 					<b>Database Connectivity Using Servlets:</b><br />
-					<img src="img/database_connectivity1.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
+					<img src="img/book.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
 				<br />
-					<img src="img/database_connectivity2.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
-
+					<img src="img/query.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
+					<br /> <br />
+					<b>Hello File</b><br />
+					<img src="img/hello.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
+				<br />
+				<b>Index File</b><br />
+					<img src="img/index.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
+				<br />
+			
+				
+				
+					
 	<%@ include file="/global/footer.jsp" %>
 
 	</div> <!-- end starter-template -->
