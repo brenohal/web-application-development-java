@@ -14,8 +14,11 @@
     - git commands w/short descriptions;
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
-    - Install something
-    - Install something
+    - Screenshots of each link;
+    - Screenshot of skillset 1 
+    - Screenshot of skillset 2
+    - Screenshot of skillset 3
+    - Screenshot of and a2/index.jsp file 
     
 3. [A3 README.md](a3/README.md "My A3 README.md file")
     - Install something

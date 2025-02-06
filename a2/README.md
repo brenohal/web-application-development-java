@@ -48,6 +48,11 @@ Four Parts:
 
 ![Query Results Screenshot](img/query.png)
 
+*a2/index.jsp Screenshot*:
+
+![a2/index.jsp Screenshot](img/indexcode.png)
+
+
 | *Screenshot skillset 1*:    |  *Screenshot of skillset 2*:   | *Screenshot skillset 3*:  |
 |------------|------------|------------|
 | ![Skillset one Screenshot](img/skill1.png)     | ![Skillset two Screenshot](img/skill2.png) | ![Skillset three Screenshot](img/skill3.png)|
