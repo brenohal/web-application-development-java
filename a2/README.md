@@ -12,7 +12,7 @@ Four Parts:
 3. Compile and run the servlet.
 4. Make sure each link displays the correct information.
 
-#### Assessment Links:
+#### Assessment Links: 
 * http://localhost:9999/hello
 * http://localhost:9999/hello/HelloHome.html
 * http://localhost:9999/hello/sayhello
