@@ -52,8 +52,43 @@ CREATE TABLE pet (
     FOREIGN KEY (cus_id) REFERENCES customer(cus_id) ON DELETE SET NULL
 );
 
-use bmo22a;
+
 select * from pet;
 select * from petstore;
 select * from customer;
+
+
+/*
+1
+SELECT pst_id, CONCAT(pst_street, ', ', pst_city, ', ', pst_state, ' ', pst_zip) AS full_address, pst_phone 
+FROM petstore;
+
+2
+SELECT ps.pst_name, COUNT(p.pet_id) AS num_pets
+FROM petstore ps
+LEFT JOIN pet p ON ps.pst_id = p.pst_id
+GROUP BY ps.pst_name;
+
+3
+SELECT ps.pst_id, c.cus_fname, c.cus_lname, c.cus_balance
+FROM petstore ps
+JOIN pet p ON ps.pst_id = p.pst_id
+JOIN customer c ON p.cus_id = c.cus_id;
+
+4
+UPDATE customer
+SET cus_lname = 'Valens'
+WHERE cus_id = 2;
+
+5
+DELETE FROM pet
+WHERE pet_id = 4;
+
+6
+INSERT INTO customer (cus_id, cus_fname, cus_lname, cus_street, cus_city, cus_state, cus_zip, cus_phone, cus_email, cus_balance, cus_total_sales, cus_notes)
+VALUES 
+(101, 'John', 'Doe', '123 Elm St', 'Springfield', 'IL', 62704, 2175551234, 'johndoe@email.com', 50.00, 200.00, 'Frequent customer'),
+(102, 'Jane', 'Smith', '456 Oak St', 'Chicago', 'IL', 60616, 3125555678, 'janesmith@email.com', 75.00, 300.00, 'Loyal customer');
+*/
+
 
