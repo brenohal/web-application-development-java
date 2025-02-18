@@ -8,20 +8,20 @@
 *Course Work Links:*
 
 1. [A1 README.md](a1/README.md "My A1 README.md file")
-    - Screenshot of running java Hello;
-    - Screenshot of running http://localhost:9999;
-    - Screenshot of a1/index.jsp
-    - git commands w/short descriptions;
+    - Screenshot of running java Hello.
+    - Screenshot of running http://localhost:9999.
+    - Screenshot of a1/index.jsp.
+    - git commands w/short descriptions.
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
-    - Assesssment links
-    - Screenshots
-    - Skillsets
-
+    - Assesssment links.
+    - Screenshots.
+    - Skillsets.
     
 3. [A3 README.md](a3/README.md "My A3 README.md file")
-    - Install something
-    - Install something
+    - Screenshot of A3 ERD.
+    - Screeshot of 10 records per table.
+    - Slillsets.
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
     - Install something

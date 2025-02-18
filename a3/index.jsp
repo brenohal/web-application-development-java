@@ -32,13 +32,37 @@
 					</div>
 
 					<b>Petstore Database (Entity Relationship Diagram):</b><br />
-					<img src="img/a3.png" class="img-responsive center-block" alt="A3 ERD" />
+					<img src="img/erd.png" class="img-responsive center-block" alt="A3 ERD" />
+
+					<br /> <br />
+					<b>Customer Data:</b><br />
+					<img src="img/customer.png" class="img-responsive center-block" alt="Customer Data" />
+
+					<br /> <br />
+					<b>Petstore Data:</b><br />
+					<img src="img/petstore.png" class="img-responsive center-block" alt="Petstore Data" />
+
+					<br /> <br />
+					<b>Pet Data:</b><br />
+					<img src="img/pet.png" class="img-responsive center-block" alt="Pet Data" />
+					
+					<br /> <br />
+					<b>Skillset 4:</b><br />
+					<img src="img/q4.png" class="img-responsive center-block" alt="Pet Data" />
+					
+					<br /> <br />
+					<b>Skillset 5:</b><br />
+					<img src="img/q5.png" class="img-responsive center-block" alt="Pet Data" />
+					
+					<br /> <br />
+					<b>Skillset 6:</b><br />
+					<img src="img/q6.png" class="img-responsive center-block" alt="Pet Data" />
 
 					<br /> <br />
 					<b>MySQL Workbench and SQL Files:</b><br />
 					<a href="docs/a3.mwb">Petstore MySQL Workbench File</a>
 				<br />
-					<a href="docs/a3.sql">Petstore SQL File</a>				
+					<a href="docs/a3.sql">Petstores SQL File</a>				
 
 	<%@ include file="/global/footer.jsp" %>
 
