@@ -28,7 +28,7 @@ Three Parts:
 
 *ERD Screenshot*:
 
-![ERD Screenshot](img/ERD.png)
+![ERD Screenshot](img/erd.png)
 
 *Petstore records screenshot*:
 
