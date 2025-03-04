@@ -32,8 +32,9 @@
     - Install something
     
 6.    [P1 README.md](p1/README.md "My P1 README.md file")
-    - Install something
-    - Install something
+    - Screen shot of failed validation.
+    - Screen shot of successful validation.
+    - Skillsets.
     
 7. [P2 README.md](p2/README.md "My P2 README.md file")
     - Install something

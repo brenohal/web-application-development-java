@@ -199,8 +199,8 @@
                             message: 'Street must be no more than 30 characters'
                         },
                         regexp: {
-                            regexp: /^[a-zA-Z0-9,\.\-]+$/,
-                            message: 'Street can contain letters, numbers, commas, hyphens, or periods'
+                            regexp: /^[a-zA-Z0-9,\.\- ]+$/,
+                            message: 'Street can contain letters, numbers, commas, hyphens, periods, and spaces'
                         }
                     }
                 },
