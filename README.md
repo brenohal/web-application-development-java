@@ -24,8 +24,9 @@
     - Slillsets.
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
-    - Install something
-    - Install something
+    - Screenshot of failed validation.
+    - Screenshot of successful validation.
+    - Skillsets.
     
 5. [A5 README.md](a5/README.md "My A5 README.md file")
     - Install something
