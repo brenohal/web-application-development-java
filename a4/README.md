@@ -33,7 +33,7 @@ Three Parts:
 
 | *Screenshot skillset 10*:    |  *Screenshot of skillset 11*:   | *Screenshot skillset 12*:  |
 |------------|------------|------------|
-| ![Skillset one Screenshot](img/skill7.png)     | ![Skillset two Screenshot](img/skill8.png) | ![Skillset three Screenshot](img/skill9.png) |
+| ![Skillset one Screenshot](img/ss10.png)     | ![Skillset two Screenshot](img/ss11.png) | ![Skillset three Screenshot](img/skill9.png) |
 
 
 
