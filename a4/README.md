@@ -5,7 +5,7 @@
 # Assignment 4 Requirements:
 
 
-Three Parts:
+Four Parts:
 
 1. Create and edit servlets and JSP pages
 2. Screenshot of successful validation on form
