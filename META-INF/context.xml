@@ -49,18 +49,18 @@ stored inside an XML document is identical to the URL
 Note (remove EDT error): &amp;serverTimezone=UTC
 	-->
     <Resource
-				url="jdbc:mysql://localhost:3306/bmo22a?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC"				
-				type="javax.sql.DataSource"
-				driverClassName="com.mysql.cj.jdbc.Driver"
-				name="jdbc/bmo22a"
-				auth="Container"
-				username="root"
-				password="mysql"
-				maxTotal="100"
-				maxIdle="30"
-				maxWaitMillis="10000"
-				logAbandoned="true"				
-				removeAbandonedOnBorrow="true"
-				removeAbandonedOnMaintenance="true"
-				removeAbandonedTimeout="60"  />  
+	url="jdbc:mysql://localhost:3307/bmo22a?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC"				
+	type="javax.sql.DataSource"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	name="jdbc/bmo22a"
+	auth="Container"
+	username="root"
+	password="mysql"
+	maxTotal="100"
+	maxIdle="30"
+	maxWaitMillis="10000"
+	logAbandoned="true"				
+	removeAbandonedOnBorrow="true"
+	removeAbandonedOnMaintenance="true"
+	removeAbandonedTimeout="60"  />  
 </Context>

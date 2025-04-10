@@ -4,7 +4,7 @@ USE bmo22a;
 
 -- Table: petstore
 CREATE TABLE petstore (
-    pst_id SMALLINT PRIMARY KEY,
+    pst_id SMALLINT PRIMARY KEY ,
     pst_name VARCHAR(30),
     pst_street VARCHAR(30),
     pst_city VARCHAR(30),
@@ -19,7 +19,7 @@ CREATE TABLE petstore (
 
 -- Table: customer
 CREATE TABLE customer (
-    cus_id SMALLINT PRIMARY KEY,
+    cus_id SMALLINT PRIMARY KEY AUTO_INCREMENT,
     cus_fname VARCHAR(15),
     cus_lname VARCHAR(30),
     cus_street VARCHAR(30),
