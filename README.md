@@ -3,7 +3,7 @@
 **Course:** LIS 4368 — Advanced Web Application Development | Florida State University  
 **Author:** Brennan O'Halloran  
 **Language:** Java, JSP, HTML/CSS  
-**Tools:** Apache Tomcat, JDK, AMPPS, Bitbucket, Git
+**Tools:** Apache Tomcat, JDK, AMPPS, Git
 
 ---
 
