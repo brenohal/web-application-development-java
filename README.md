@@ -1,45 +1,61 @@
-# LIS4368 Advanced Web Application Development
+Web Application Development — Java
 
-## Brennan O'Halloran
+Course: LIS 4368 — Advanced Web Application Development | Florida State University
 
-# LI4368 Requirements:
+Author: Brennan O'Halloran
+
+Language: Java, JSP, HTML/CSS
+
+Tools: Apache Tomcat, JDK, AMPPS, Bitbucket, Git
 
 
-*Course Work Links:*
+Overview
 
-1. [A1 README.md](a1/README.md "My A1 README.md file")
-    - Screenshot of running java Hello.
-    - Screenshot of running http://localhost:9999.
-    - Screenshot of a1/index.jsp.
-    - git commands w/short descriptions.
+This repository contains coursework from LIS 4368: Advanced Web Application Development at Florida State University. Projects focus on server-side web development using Java and JavaServer Pages (JSP), running on Apache Tomcat. The course covers the full request-response lifecycle, dynamic page generation, and integration between front-end and back-end components.
 
-2. [A2 README.md](a2/README.md "My A2 README.md file")
-    - Assesssment links.
-    - Screenshots.
-    - Skillsets.
-    
-3. [A3 README.md](a3/README.md "My A3 README.md file")
-    - Screenshot of A3 ERD.
-    - Screeshot of 10 records per table.
-    - Slillsets.
 
-4. [A4 README.md](a4/README.md "My A4 README.md file")
-    - Screenshot of failed validation.
-    - Screenshot of successful validation.
-    - Skillsets.
-    
-5. [A5 README.md](a5/README.md "My A5 README.md file")
-    - Screenshot of valid user entry
-    - Screenshot of passed validation 
-    - Screenshot of data entry
-    - Complete the required skillsets
+Topics Covered
 
-6.    [P1 README.md](p1/README.md "My P1 README.md file")
-    - Screen shot of failed validation.
-    - Screen shot of successful validation.
-    - Skillsets.
-    
-7. [P2 README.md](p2/README.md "My P2 README.md file")
-    - Install something
-    - Install something
-    
+
+Java web application development with JSP and Servlets
+Apache Tomcat server configuration and deployment
+Dynamic HTML generation via server-side Java
+HTTP request/response handling
+Form processing and user input validation
+MVC architecture concepts
+Version control with Git and Bitbucket
+
+
+
+Project Highlights
+
+Assignment 1 — Environment Setup & Hello World
+
+Configured a full Java web development environment including JDK, Apache Tomcat, and AMPPS. Deployed and ran a first JSP application at localhost:9999, demonstrating server-side page rendering.
+
+Assignments 2–5
+
+Progressive assignments building toward full-featured Java web applications:
+
+
+Dynamic JSP pages with embedded Java logic
+Form-based user interaction and server-side processing
+Multi-page web application flow
+Integration of Java backend logic with HTML/CSS front-end
+
+
+
+Repository Structure
+
+/
+├── a1/     # Environment setup, Hello World JSP, Tomcat configuration
+├── a2/     # Dynamic JSP pages, request/response handling
+├── a3/     # Form processing and input validation
+├── a4/     # Multi-page application flow
+├── a5/     # Advanced Java web features
+└── p1/     # Final project
+
+
+Tech Stack
+
+ToolPurposeJava (JDK)Core programming languageJSP (JavaServer Pages)Server-side dynamic web pagesApache TomcatJava web application serverAMPPSLocal development stackHTML / CSSFront-end structure and stylingGit / BitbucketVersion control
