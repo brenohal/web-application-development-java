@@ -1,5 +1,3 @@
-<!-- Local review draft. Nothing here has been published to GitHub. -->
-
 # Customer Management Web App
 
 **Java · JSP · Servlets · JDBC · Apache Tomcat**
