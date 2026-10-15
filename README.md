@@ -1,38 +1,59 @@
-# Customer Management Web App
+# Java Web Applications
 
-**Java · JSP · Servlets · JDBC · Apache Tomcat**
+**Course portfolio · LIS 4368 — Advanced Web Application Development · Florida State University**
 
-A Java web application for managing customer records, built as part of my Florida State University web development coursework. The repository includes JSP forms and pages, servlet-based request handling, a customer model, and a JDBC data layer.
+A collection of Java web development coursework, culminating in a customer-entry application built with JSP, servlets, and JDBC. The projects trace a path from basic Java and servlet exercises to form validation and database-backed workflows.
 
-**[Portfolio](https://brenohal.github.io/brennan-resume/) · [GitHub profile](https://github.com/brenohal) · [LinkedIn](https://www.linkedin.com/in/brennan-o-halloran)**
+[Portfolio](https://brenohal.github.io/brennan-resume/) · [GitHub profile](https://github.com/brenohal) · [LinkedIn](https://www.linkedin.com/in/brennan-o-halloran)
 
-## What it does
+## Featured project: Customer management
 
-- Accepts customer details through web forms and validates input.
-- Uses Java servlets to handle application requests.
-- Separates customer data and database work into model and data classes.
-- Includes customer display and modification flows, plus smaller JSP exercises from the course.
+The customer-entry flow collects customer and sales details, validates required input, sends the request to a Java servlet, and uses JDBC to insert the record into MySQL. After submission, the app displays a confirmation page with the entered information.
 
-## See it in action
+| Form validation | Customer data entry |
+|:--:|:--:|
+| [![Successful form validation](https://raw.githubusercontent.com/brenohal/web-application-development-java/master/a4/img/success.png)](https://github.com/brenohal/web-application-development-java/blob/master/a4/img/success.png) | [![Customer data entry example](https://raw.githubusercontent.com/brenohal/web-application-development-java/master/a5/img/db.png)](https://github.com/brenohal/web-application-development-java/blob/master/a5/img/db.png) |
 
-| Form validation · success | Form validation · error |
-|:---:|:---:|
-| [![Successful form validation example](https://raw.githubusercontent.com/brenohal/web-application-development-java/master/a4/img/success.png)](https://github.com/brenohal/web-application-development-java/blob/master/a4/img/success.png) | [![Unsuccessful form validation example](https://raw.githubusercontent.com/brenohal/web-application-development-java/master/a4/img/failed.png)](https://github.com/brenohal/web-application-development-java/blob/master/a4/img/failed.png) |
+The repository also contains customer listing and edit/delete page scaffolding. The corresponding database operations are not currently connected, so this project should not be described as a complete CRUD application.
 
-## Tech stack
+## How the app is structured
 
-`Java` · `JSP` · `Servlets` · `JDBC` · `MySQL` · `Apache Tomcat` · `HTML` · `CSS` · `Bootstrap`
+`JSP form` → `CustomerServlet` → `Customer model` → `CustomerDB` / JDBC → `MySQL`
 
-## Repository map
+- **JSP** pages collect customer details and display the confirmation.
+- **Servlets** handle form submissions and basic required-field checks.
+- **Java classes** represent customer data and prepare database inserts.
+- **JDBC** connects the application to a MySQL data source configured for Tomcat.
 
-- `customerform.jsp`, `customers.jsp`, and `modify.jsp` — customer form, listing, and modification pages
-- `WEB-INF/classes/crud/` — servlet, customer model, and database classes
-- `a1/`–`a5/` — progressive course exercises, including validation and JSP examples
-- `p1/` and `p2/` — project submissions
-- `skillsets/` — standalone Java practice exercises
+## Technologies
+
+`Java` · `JSP` · `Jakarta Servlets` · `JDBC` · `MySQL` · `Apache Tomcat` · `HTML` · `CSS` · `Bootstrap`
+
+## Coursework highlights
+
+- **A1:** Java, JDK, and Tomcat setup; introductory JSP page
+- **A2:** Basic servlet exercises and request handling
+- **A3:** Relational database design and SQL
+- **A4:** Servlet/JSP forms and validation states
+- **A5:** Validated data entry and database workflow
+- **P1:** Form-validation project
+- **`skillsets/`:** Standalone Java practice exercises
 
 ## Run locally
 
-This is a traditional JSP web application rather than a Maven or Gradle project. It requires a JDK and Apache Tomcat; the customer pages also expect a configured relational database and JDBC connection. The repository does not currently provide a one-command setup, so the database connection and Tomcat deployment need to be configured for your local environment before running the app.
+This is a traditional Tomcat web application, not a Maven or Gradle project. Running the customer workflow requires a compatible JDK and Tomcat installation, a MySQL database, and a configured JDBC data source named `jdbc/bmo22a`.
 
+Before running it, configure the database connection for your own local environment. Do not commit real passwords or credentials to the repository. The project does not currently include a one-command setup.
 
+## Repository map
+
+```text
+customerform.jsp     Customer-entry form
+thanks.jsp           Submission confirmation
+customers.jsp        Customer-list page scaffolding
+modify.jsp           Customer-edit page scaffolding
+WEB-INF/classes/     Servlet, customer model, and JDBC classes
+a1/–a5/              Progressive course assignments
+p1/                  Form-validation project
+skillsets/           Standalone Java exercises
+```
