@@ -1,65 +1,40 @@
-# Web Application Development — Java
+<!-- Local review draft. Nothing here has been published to GitHub. -->
 
-**Course:** LIS 4368 — Advanced Web Application Development | Florida State University  
-**Author:** Brennan O'Halloran  
-**Language:** Java, JSP, HTML/CSS  
-**Tools:** Apache Tomcat, JDK, AMPPS, Git
+# Customer Management Web App
 
----
+**Java · JSP · Servlets · JDBC · Apache Tomcat**
 
-## Overview
+A Java web application for managing customer records, built as part of my Florida State University web development coursework. The repository includes JSP forms and pages, servlet-based request handling, a customer model, and a JDBC data layer.
 
-This repository contains coursework from LIS 4368: Advanced Web Application Development at Florida State University. Projects focus on server-side web development using Java and JavaServer Pages (JSP), running on Apache Tomcat. The course covers the full request-response lifecycle, dynamic page generation, and integration between front-end and back-end components.
+**[Portfolio](https://brenohal.github.io/brennan-resume/) · [GitHub profile](https://github.com/brenohal) · [LinkedIn](https://www.linkedin.com/in/brennan-o-halloran)**
 
----
+## What it does
 
-## Topics Covered
+- Accepts customer details through web forms and validates input.
+- Uses Java servlets to handle application requests.
+- Separates customer data and database work into model and data classes.
+- Includes customer display and modification flows, plus smaller JSP exercises from the course.
 
-- Java web application development with JSP and Servlets
-- Apache Tomcat server configuration and deployment
-- Dynamic HTML generation via server-side Java
-- HTTP request/response handling
-- Form processing and user input validation
-- MVC architecture concepts
-- Version control with Git and Bitbucket
+## See it in action
 
----
+| Form validation · success | Form validation · error |
+|:---:|:---:|
+| [![Successful form validation example](https://raw.githubusercontent.com/brenohal/web-application-development-java/master/a4/img/success.png)](https://github.com/brenohal/web-application-development-java/blob/master/a4/img/success.png) | [![Unsuccessful form validation example](https://raw.githubusercontent.com/brenohal/web-application-development-java/master/a4/img/failed.png)](https://github.com/brenohal/web-application-development-java/blob/master/a4/img/failed.png) |
 
-## Project Highlights
+## Tech stack
 
-### Assignment 1 — Environment Setup & Hello World
-Configured a full Java web development environment including JDK, Apache Tomcat, and AMPPS. Deployed and ran a first JSP application at `localhost:9999`, demonstrating server-side page rendering.
+`Java` · `JSP` · `Servlets` · `JDBC` · `MySQL` · `Apache Tomcat` · `HTML` · `CSS` · `Bootstrap`
 
-### Assignments 2–5
-Progressive assignments building toward full-featured Java web applications:
-- Dynamic JSP pages with embedded Java logic
-- Form-based user interaction and server-side processing
-- Multi-page web application flow
-- Integration of Java backend logic with HTML/CSS front-end
+## Repository map
 
----
+- `customerform.jsp`, `customers.jsp`, and `modify.jsp` — customer form, listing, and modification pages
+- `WEB-INF/classes/crud/` — servlet, customer model, and database classes
+- `a1/`–`a5/` — progressive course exercises, including validation and JSP examples
+- `p1/` and `p2/` — project submissions
+- `skillsets/` — standalone Java practice exercises
 
-## Repository Structure
+## Run locally
 
-```
-/
-├── a1/     # Environment setup, Hello World JSP, Tomcat configuration
-├── a2/     # Dynamic JSP pages, request/response handling
-├── a3/     # Form processing and input validation
-├── a4/     # Multi-page application flow
-├── a5/     # Advanced Java web features
-└── p1/     # Final project
-```
+This is a traditional JSP web application rather than a Maven or Gradle project. It requires a JDK and Apache Tomcat; the customer pages also expect a configured relational database and JDBC connection. The repository does not currently provide a one-command setup, so the database connection and Tomcat deployment need to be configured for your local environment before running the app.
 
----
 
-## Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| Java (JDK) | Core programming language |
-| JSP (JavaServer Pages) | Server-side dynamic web pages |
-| Apache Tomcat | Java web application server |
-| AMPPS | Local development stack |
-| HTML / CSS | Front-end structure and styling |
-| Git / Bitbucket | Version control |
